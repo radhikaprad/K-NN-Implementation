@@ -32,37 +32,39 @@ Distance measure used is Euclidean distance (distance formula given above)
  The datasets used are Ecoli, Glass and yeast
  # Ecoli:
     The objective of this problem is to predict the localization site of proteins by employing some measures about the cell (cytoplasm, inner membrane, perisplasm, outer membrane, outer membrane lipoprotein, inner membrane lipoprotein inner membrane, cleavable signal sequence). To assess the data to classification process, the first attribute of the original data set (the sequence name) has been removed in this version
-
- # Attribute description:
-  1. Sequence Name: Accession number for the SWISS-PROT database
-  2. mcg: McGeoch's method for signal sequence recognition.
-  3. gvh: von Heijne's method for signal sequence recognition.
-  4. lip: von Heijne's Signal Peptidase II consensus sequence score.
-  5. chg: Presence of charge on N-terminus of predicted lipoproteins.
-  6. aac: score of discriminant analysis of the amino acid content 
-  7. alm1: score of the ALOM membrane spanning region prediction program.
-  8. alm2: score of ALOM program after excluding putative cleavable signal
-	   regions from the sequence.
-
- # Classes:
-  cp  (cytoplasm)                                    
-  im  (inner membrane without signal sequence)                      
-  pp  (perisplasm)                                   
-  imU (inner membrane, uncleavable signal sequence)  
-  om  (outer membrane)                                
-  omL (outer membrane lipoprotein)                     
-  imL (inner membrane lipoprotein)                     
-  imS (inner membrane, cleavable signal sequence)  
+    
+    # Attribute description:
+      1. Sequence Name: Accession number for the SWISS-PROT database
+      2. mcg: McGeoch's method for signal sequence recognition.
+      3. gvh: von Heijne's method for signal sequence recognition.
+      4. lip: von Heijne's Signal Peptidase II consensus sequence score.
+      5. chg: Presence of charge on N-terminus of predicted lipoproteins.
+      6. aac: score of discriminant analysis of the amino acid content 
+      7. alm1: score of the ALOM membrane spanning region prediction program.
+      8. alm2: score of ALOM program after excluding putative cleavable signal
+	   
+    # Classes:
+      cp  (cytoplasm)                                    
+      im  (inner membrane without signal sequence)                      
+      pp  (perisplasm)                                   
+      imU (inner membrane, uncleavable signal sequence)  
+      om  (outer membrane)                                
+      omL (outer membrane lipoprotein)                     
+      imL (inner membrane lipoprotein)                     
+      imS (inner membrane, cleavable signal sequence)  
 
 # Glass:
  This data set contains the description of 214 fragments of glass originally collected for a study in the context of criminal investigation. Each fragment has a measured reflectivity index and chemical composition (weight percent of Na, Mg, Al, Si, K, Ca, Ba and Fe)
 
- # Class Distribution: (out of 214 total instances)
-    163 Window glass (building windows and vehicle windows), 87 float processed ,70 building windows,17 vehicle wind, 76 non-float process, 76 building windows, 0 vehicle wind, 51 Non-window glass, 13 container,  9 tablewa  ,29 headlamps
+    # Class Distribution: (out of 214 total instances)
+      163 Window glass (building windows and vehicle windows), 87 float processed ,70 building windows,17 vehicle wind, 76 non-float process, 76 building windows, 0 vehicle wind, 51 Non-window glass, 13 container,  9 tablewa  ,29 headlamps
 
-# Yeast:
-   This database contains information about a set of Yeast cells. The task is to determine the localization site of each cell among 10 possible alternatives. 
+    # Yeast:
+      This database contains information about a set of Yeast cells. The task is to determine the localization site of each cell among 10 possible alternatives. 
 
-  # Attributes description: 
-Mcg: McGeoch's method for signal sequence recognition. Gvh: von Heijne's method for signal sequence recognition. Alm: Score of the ALOM membrane spanning region prediction program. Mit: Score of discriminant analysis of the amino acid content of the N-terminal region (20 residues long) of mitochondrial and non-mitochondrial proteins. Erl: Presence of "HDEL" substring (thought to act as a signal for retention in the endoplasmic reticulum lumen). Binary attribute. Pox: Peroxisomal targeting signal in the C-terminus. Vac: Score of discriminant analysis of the amino acid content of vacuolar and extracellular proteins. Nuc: Score of discriminant analysis of nuclear localization signals of nuclear and non-nuclear proteins
-Contains around 2000 instances
+   # Attributes description: 
+     1. Mcg: McGeoch's method for signal sequence recognition. 
+     2. Gvh: von Heijne's method for signal sequence recognition. 
+     3. Alm: Score of the ALOM membrane spanning region prediction program. 
+     4. Mit: Score of discriminant analysis of the amino acid content 
+     5. Erl: Presence of "HDEL" substring (thought to act as a signal for retention in the endoplasmic reticulum lumen). 
