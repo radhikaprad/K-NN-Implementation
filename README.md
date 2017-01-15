@@ -31,9 +31,7 @@ Distance measure used is Euclidean distance (distance formula given above)
 # Datasets:
  The datasets used are Ecoli, Glass and yeast
  # Ecoli:
-    The objective of this problem is to predict the localization site of proteins by employing some measures about the cell (cytoplasm, inner membrane, perisplasm, outer membrane, outer membrane lipoprotein, inner membrane lipoprotein inner membrane, cleavable signal sequence). 
-
-    To assess the data to classification process, the first attribute of the original data set (the sequence name) has been removed in this version
+    The objective of this problem is to predict the localization site of proteins by employing some measures about the cell (cytoplasm, inner membrane, perisplasm, outer membrane, outer membrane lipoprotein, inner membrane lipoprotein inner membrane, cleavable signal sequence). To assess the data to classification process, the first attribute of the original data set (the sequence name) has been removed in this version
 
  # Attribute description:
   1. Sequence Name: Accession number for the SWISS-PROT database
