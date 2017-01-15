@@ -55,13 +55,13 @@ Distance measure used is Euclidean distance (distance formula given above)
       imS (inner membrane, cleavable signal sequence)  
 
 # Glass:
- This data set contains the description of 214 fragments of glass originally collected for a study in the context of criminal investigation. Each fragment has a measured reflectivity index and chemical composition (weight percent of Na, Mg, Al, Si, K, Ca, Ba and Fe)
+  This data set contains the description of 214 fragments of glass originally collected for a study in the context of criminal investigation. Each fragment has a measured reflectivity index and chemical composition (weight percent of Na, Mg, Al, Si, K, Ca, Ba and Fe)
 
     Class Distribution: (out of 214 total instances)
       163 Window glass (building windows and vehicle windows), 87 float processed ,70 building windows,17 vehicle wind, 76 non-float process, 76 building windows, 0 vehicle wind, 51 Non-window glass, 13 container,  9 tablewa  ,29 headlamps
 
 # Yeast:
-      This database contains information about a set of Yeast cells. The task is to determine the localization site of each cell among 10 possible alternatives. 
+  This database contains information about a set of Yeast cells. The task is to determine the localization site of each cell among 10 possible alternatives. 
 
     Attributes description: 
      1. Mcg: McGeoch's method for signal sequence recognition. 
