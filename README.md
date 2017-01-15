@@ -33,7 +33,7 @@ Distance measure used is Euclidean distance (distance formula given above)
  # Ecoli:
     The objective of this problem is to predict the localization site of proteins by employing some measures about the cell (cytoplasm, inner membrane, perisplasm, outer membrane, outer membrane lipoprotein, inner membrane lipoprotein inner membrane, cleavable signal sequence). To assess the data to classification process, the first attribute of the original data set (the sequence name) has been removed in this version
     
-    # Attribute description:
+    Attribute description:
       1. Sequence Name: Accession number for the SWISS-PROT database
       2. mcg: McGeoch's method for signal sequence recognition.
       3. gvh: von Heijne's method for signal sequence recognition.
@@ -43,7 +43,7 @@ Distance measure used is Euclidean distance (distance formula given above)
       7. alm1: score of the ALOM membrane spanning region prediction program.
       8. alm2: score of ALOM program after excluding putative cleavable signal
 	   
-    # Classes:
+    Class Distribution:
       cp  (cytoplasm)                                    
       im  (inner membrane without signal sequence)                      
       pp  (perisplasm)                                   
@@ -56,13 +56,13 @@ Distance measure used is Euclidean distance (distance formula given above)
 # Glass:
  This data set contains the description of 214 fragments of glass originally collected for a study in the context of criminal investigation. Each fragment has a measured reflectivity index and chemical composition (weight percent of Na, Mg, Al, Si, K, Ca, Ba and Fe)
 
-    # Class Distribution: (out of 214 total instances)
+    Class Distribution: (out of 214 total instances)
       163 Window glass (building windows and vehicle windows), 87 float processed ,70 building windows,17 vehicle wind, 76 non-float process, 76 building windows, 0 vehicle wind, 51 Non-window glass, 13 container,  9 tablewa  ,29 headlamps
 
-    # Yeast:
+# Yeast:
       This database contains information about a set of Yeast cells. The task is to determine the localization site of each cell among 10 possible alternatives. 
 
-   # Attributes description: 
+    Attributes description: 
      1. Mcg: McGeoch's method for signal sequence recognition. 
      2. Gvh: von Heijne's method for signal sequence recognition. 
      3. Alm: Score of the ALOM membrane spanning region prediction program. 
